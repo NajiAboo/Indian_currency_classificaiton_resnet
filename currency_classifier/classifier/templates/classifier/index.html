@@ -1,0 +1,35 @@
+{% extends "classifier/base.html" %}
+{% block title %}
+  Currency Classifer
+{% endblock title %}
+
+{% block content %}
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+     {{form}}
+     <button type="submit">Upload!</button>
+</form>
+
+
+{% if cls %}    
+<div class="img">
+    <div class="fixed">
+    <img src="{{ cls.input_image.url}}" alt="Image" width="200px">
+</div>
+<div class="flex-item">
+    <!-- <button type="submit">Check Currency!</button> -->
+        <h1>Uploaded Currency : {{pred}}</h1>
+    </div>
+</div>
+
+{% endif %}
+    
+
+<script>
+    $(function(){
+        $('form').on('submit', function(e){
+            $('body').append('<div style="margin:auto" id="loading">Loading...</div>')
+        });
+    })
+</script>    
+{% endblock content %}
