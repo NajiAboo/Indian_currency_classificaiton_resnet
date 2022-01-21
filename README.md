@@ -25,6 +25,6 @@ Following Tehnologies are used
   - Resnet 
  
  
- 
+<video src='https://youtu.be/tYqGyag4mT8' width=180/>
  
     
