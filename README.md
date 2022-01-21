@@ -10,3 +10,6 @@
     # download the dataset from kaggle  https://www.kaggle.com/najiaboo/indiancurrencydetectionandclassification
     # Open processor.py and update the path 
     # run python train.py 
+    # To view , run "python predct.py"
+    
+    
