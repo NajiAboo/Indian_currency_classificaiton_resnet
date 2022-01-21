@@ -12,4 +12,19 @@
     # run python train.py 
     # To view , run "python predct.py"
     
+Project will help to classify the Indian currency.
+It has two parts 
+   - Train the model 
+   - Predict the model 
+ Instructions are given above. 
+ 
+Following Tehnologies are used
+  - Pytorch 
+  - Django
+  - Python
+  - Resnet 
+ 
+ 
+ 
+ 
     
