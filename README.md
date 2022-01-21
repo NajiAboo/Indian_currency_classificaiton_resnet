@@ -1,4 +1,4 @@
-# Indian_currency_classificaiton_resnet
+# Indian Currency Classification using Pytorch
     # conda create --name env python=3.8
     # git clone https://github.com/NajiAboo/Indian_currency_classificaiton_resnet.git
     # cd currency_classifier
